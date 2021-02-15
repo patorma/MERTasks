@@ -18,6 +18,7 @@ const Login = () => {
             // en otra pieza de state no se reescriba
             ...usuario,
             //y se reescribe la actual con:
+            //le asignamos el nuevo valor
             [e.target.name] : e.target.value
 
         })

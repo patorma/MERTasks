@@ -1,6 +1,7 @@
 import NuevoProyecto from '../proyectos/NuevoProyecto';
 
 const Sidebar = () => {
+
     return ( 
         <aside>
             <h1>MERN<span>Tasks</span></h1>
